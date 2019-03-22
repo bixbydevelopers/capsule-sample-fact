@@ -1,0 +1,5 @@
+train (t-9piveju53ujhp3f8wiu1ni3ij) {
+  utterance ("[g:GetContent] Tell me a fact about (dogs)[v:SearchTerm]")
+  plan (Y2BmEE+tSMwtyEnVS87PK0nNK9FzhtAMUugS7qklOOWCUxOLkjNCUotyGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1552931098908)
+}

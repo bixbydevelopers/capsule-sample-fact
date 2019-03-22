@@ -1,0 +1,6 @@
+result-view {
+  match: Content (this)
+  render {
+    image-list-of (this.image)
+  }
+}

@@ -1,0 +1,5 @@
+train (t-zd4pe2u3y33g0rdul741oyz2u) {
+  utterance ("[g:GetContent] Tell me a (cat)[v:SearchTerm] joke")
+  plan (Y2BmEE+tSMwtyEnVS87PK0nNK9FzhtAMUugS7qklOOWCUxOLkjNCUotyGZgYGIGYAUgyMoAAlA8A)
+  last-modified (1552929394692)
+}
