@@ -1,4 +1,4 @@
 dialog (Result) {
   match: Content(this)
-  template("#{raw(this.fact)}")
+  template("#{raw(this.text)}")
 }

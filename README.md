@@ -6,6 +6,12 @@
 
 ## Overview
 
+Do you have some interesting facts about a hobby or passion to share? Do you have a set of LOL jokes to share? The facts sample capsule is the perfect place to share that content by building a Bixby capsule.
+
+Lots of the basic building blocks of a Bixby capsule are highlighted; This is a great capsule to start learning how to develop for Bixby.
+
+You can easily customize this capsule with your own content without any development! Just use the spreadsheet in the `contentUtility` folder and cut and paste from there into the `content.js` file, update the `capsule.id` and `training` as necessary and you have made this capsule your own!
+
 ## How to get started
 
 * Download and install the Bixby Studio IDE from the [Bixby Developer Center](http://bixbydevelopers.com)
@@ -30,12 +36,12 @@ Tell me a cat joke (Bixby says a random joke (fact) about cats)
 ```
 
 ## How to customize
-- Put your own content (facts and associated tags and images) into `code/content.js` - You may also use the spreadsheet located in `contentUtility/CreateContent.xslx` to create content
-- If you want to use images in your content you can either use a web URL or you can save your image under `assets/images` and refer to them with a relative path, e.g. `images/cow.png` (you might have to wait a little until the IDE uploads images to the cloud)
-- Change the capsule id to reflect your organization and your content. The capsule id is defined in the `capsule.bxb` file
-- You can customize the NoResult dialog (`resources/base/dialog/Content_NoResult.dialog.bxb`)
-- Add more training / change the training
-- Have fun!
+* Put your own content (facts and associated tags and images) into `code/content.js` - You may also use the spreadsheet located in `contentUtility/CreateContent.xslx` to create content
+* If you want to use images in your content you can either use a web URL or you can save your image under `assets/images` and refer to them with a relative path, e.g. `images/cow.png` (you might have to wait a little until the IDE uploads images to the cloud)
+* Change the capsule id to reflect your organization and your content. The capsule id is defined in the `capsule.bxb` file
+* You can customize the NoResult dialog (`resources/base/dialog/Content_NoResult.dialog.bxb`)
+* Add more training / change the training
+* Have fun!
 
 ---
 

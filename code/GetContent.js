@@ -21,7 +21,7 @@ exports.function = function (searchTerm) {
   // return content if exists, else null (No Result)
   if (chosenContent) {
     return {
-      fact: chosenContent.text,
+      text: chosenContent.text,
       image: chosenContent.image
     }
   } else {
