@@ -1,6 +1,7 @@
 structure (Content) {
+  description (Output)
   property (text) {
-    type (core.Text)
+    type (Text)
     min (Optional) max (One)
     visibility (Private)
   }

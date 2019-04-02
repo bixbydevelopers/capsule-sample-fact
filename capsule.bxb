@@ -6,11 +6,9 @@ capsule {
     target (bixby-mobile-en-US)
   }
   capsule-imports {
-    import (viv.core) { 
-      as (core) 
-    }
     import (viv.image) {
       as (image) version (2.11.4)
     }
   }
 }
+

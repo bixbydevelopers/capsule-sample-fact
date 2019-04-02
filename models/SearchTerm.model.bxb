@@ -1,2 +1,3 @@
 text (SearchTerm) {
+  description (Term to Search for)
 }
