@@ -2,6 +2,9 @@ capsule {
   id (example.fact)
   version (1.0.0)
   format(3)
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+  }  
   targets {
     target (bixby-mobile-en-US)
   }
@@ -10,7 +13,7 @@ capsule {
       as (core)
     }
     import (viv.image) {
-      as (image) version (2.11.4)
+      as (image) version (2.12.0)
     }
   }
 }
