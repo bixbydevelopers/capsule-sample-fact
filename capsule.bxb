@@ -3,8 +3,10 @@ capsule {
   version (1.0.0)
   format(3)
   runtime-flags {
+    modern-prompt-rejection
     support-halt-effect-in-computed-inputs
-  }  
+    concepts-inherit-super-type-features
+  } 
   targets {
     target (bixby-mobile-en-US)
   }
