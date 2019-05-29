@@ -12,6 +12,8 @@ Lots of the basic building blocks of a Bixby capsule are highlighted; This is a 
 
 You can easily customize this capsule with your own content without any development! Just use the spreadsheet in the `contentUtility` folder and cut and paste from there into the `content.js` file, update the `capsule.id` and `training` as necessary and you have made this capsule your own!
 
+You can also retrieve data from an API. Included is an example of a simple API call to get dad jokes. See the `getRemoteContent.js` file
+
 ## How to get started
 
 * Download and install the Bixby Studio IDE from the [Bixby Developer Center](http://bixbydevelopers.com)
@@ -34,9 +36,14 @@ Tell me a joke (Bixby says a random joke (fact)
 
 Tell me a cat joke (Bixby says a random joke (fact) about cats)
 ```
+Or ask about dad jokes (uses an API call). Try this:
+```
+Tell me a dad joke (Bixby says a random dad joke (fact) using a remote API call)
+```
 
 ## How to customize
 * Put your own content (facts and associated tags and images) into `code/content.js` - You may also use the spreadsheet located in `contentUtility/CreateContent.xslx` to create content
+* Use an API for your facts/jokes. You need to modify `code/lib/getRemoteContent.js` and `code/content.js`
 * If you want to use images in your content you can either use a web URL or you can save your image under `assets/images` and refer to them with a relative path, e.g. `images/cow.png` (you might have to wait a little until the IDE uploads images to the cloud)
 * Change the capsule id to reflect your organization and your content. The capsule id is defined in the `capsule.bxb` file
 * You can customize the NoResult dialog (`resources/base/dialog/Content_NoResult.dialog.bxb`)
