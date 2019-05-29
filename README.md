@@ -43,7 +43,7 @@ Tell me a dad joke (Bixby says a random dad joke (fact) using a remote API call
 
 ## How to customize
 * Put your own content (facts and associated tags and images) into `code/content.js` - You may also use the spreadsheet located in `contentUtility/CreateContent.xslx` to create content
-* Use an API for your facts/jokes. You will need to modify `code/lib/getRemoteContent.js` and `code/content.js`
+* Use an API for your facts/jokes. You need to modify `code/lib/getRemoteContent.js` and `code/content.js`
 * If you want to use images in your content you can either use a web URL or you can save your image under `assets/images` and refer to them with a relative path, e.g. `images/cow.png` (you might have to wait a little until the IDE uploads images to the cloud)
 * Change the capsule id to reflect your organization and your content. The capsule id is defined in the `capsule.bxb` file
 * You can customize the NoResult dialog (`resources/base/dialog/Content_NoResult.dialog.bxb`)
