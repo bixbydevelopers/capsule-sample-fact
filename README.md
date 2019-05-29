@@ -38,7 +38,7 @@ Tell me a cat joke (Bixby says a random joke (fact) about cats)
 ```
 Or ask about dad jokes (uses an API call). Try this:
 ```
-Tell me a dad joke (Bixby says a random dad joke (fact) using a remote API call
+Tell me a dad joke (Bixby says a random dad joke (fact) using a remote API call)
 ```
 
 ## How to customize
