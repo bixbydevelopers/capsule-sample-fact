@@ -8,7 +8,7 @@ exports.function = function (searchTerm) {
   var content = CONTENT
   var chosenContent
 
-  // Hard coded searchTerm example to show getting content from an API
+  // Hard coded searchTerm example to content retrieval from an API
   if (searchTerm && searchTerm.toLowerCase() == 'dad') {
     var dadJoke = GET_REMOTE.getDadJoke();
     
