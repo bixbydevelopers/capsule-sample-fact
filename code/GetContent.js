@@ -24,7 +24,7 @@ exports.function = function (searchTerm) {
     }
   } else {
     // Get content from local content.js file 
-    // filter based on searchTerm (note that if you use a web api then filtering can be done in the web API itself)
+    // filter based on searchTerm (note that if you use a web API, then filtering can be done in the web API itself)
     if (searchTerm) {
       content = UTIL.findContent(content, searchTerm)
     }
