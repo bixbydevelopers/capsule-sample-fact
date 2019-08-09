@@ -1,0 +1,11 @@
+capsule-info {
+  display-name (Sample Fact Capsule)
+  developer-name (Viv Labs)
+  icon-asset (/images/fact-icon.png)
+  description ("Example fact capsule. A great starting point to build a capsule for Bixby")
+  dispatch-name (Sample Fact Capsule)
+  website-url (http://viv.ai/)
+  search-keywords {
+    keyword (fact)
+  }
+}
