@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance (tell me a fact)
-    utterance (start)
-    utterance (tell me a dad joke)
+    hint (In Sample Fact Capsule, tell me a fact)
+    hint (With Sample Fact Capsule, start)
+    hint (In Sample Fact Capsule, tell me a dad joke)
   }
 }
