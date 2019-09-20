@@ -8,6 +8,7 @@ capsule {
     modern-prompt-rejection
     support-halt-effect-in-computed-inputs
     concepts-inherit-super-type-features
+    use-input-views-for-selection-list-detail
   } 
   targets {
     target (bixby-mobile-en-US)
@@ -17,7 +18,7 @@ capsule {
       as (core)
     }
     import (viv.image) {
-      as (image) version (2.12.8)
+      as (image) version (2.12.10)
     }
   }
 }
