@@ -6,7 +6,7 @@ structure (Content) {
     visibility (Private)
   }
   property (image) {
-    type (image.Image)
+    type (viv.core.BaseImage)
     min (Optional) max (One)
     visibility (Private)
   }
