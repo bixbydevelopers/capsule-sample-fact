@@ -2,14 +2,7 @@ capsule {
   id (example.fact)
   version (1.0.0)
   format(3)
-  runtime-flags {
-    modern-default-view-behavior
-    no-filtering-with-validation
-    modern-prompt-rejection
-    support-halt-effect-in-computed-inputs
-    concepts-inherit-super-type-features
-    use-input-views-for-selection-list-detail
-  } 
+  runtime-version (2)
   targets {
     target (bixby-mobile-en-US)
   }
