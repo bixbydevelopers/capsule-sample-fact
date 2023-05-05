@@ -1,4 +1,0 @@
-dialog (NoResult) {
-  match: Content
-  template("Nothing found")
-}
