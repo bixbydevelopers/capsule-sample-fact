@@ -1,4 +1,0 @@
-dialog (Result) {
-  match: Content(this)
-  template("#{raw(this.text)}")
-}

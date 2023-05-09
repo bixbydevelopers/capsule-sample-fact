@@ -1,8 +1,10 @@
 capsule {
   id (example.fact)
   version (1.0.0)
-  format(3)
-  runtime-version (2)
+  format (3)
+  runtime-version (9) {
+    js-runtime-version (2)
+  }
   targets {
     target (bixby-mobile-en-US)
   }
@@ -18,4 +20,3 @@ capsule {
     section (GamesAndFun)
   }
 }
-

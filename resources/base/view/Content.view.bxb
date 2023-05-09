@@ -1,5 +1,12 @@
 result-view {
   match: Content (this)
+  message{
+    if (exists(this.text)){
+      template ("#{raw(this.text)}")
+    }else{
+      template ("Nothing Found")
+    }
+  }
   render {
     image-list-of (this.image)
   }
